@@ -1,0 +1,12 @@
+class Solution {
+    // function to print alternate elements of an array
+    public ArrayList<Integer> getAlternates(int arr[]) {
+        int n=arr.length;
+        ArrayList<Integer> res= new ArrayList<>();
+        for(int i=0;i<n;i+=2){
+            res.add(arr[i]);
+        }
+        return res;
+        
+    }
+}
